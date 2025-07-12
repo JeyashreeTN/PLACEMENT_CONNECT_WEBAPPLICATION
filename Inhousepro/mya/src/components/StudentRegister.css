@@ -3,46 +3,48 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
- 
+  min-height: 100vh;
+  padding: 20px;
 }
 
-/* Form Card Styling */
+/* Rectangular Card View */
 .student-card {
-  
-  padding: 20px;
-  background: white;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  height: 250px;
+  width: 100%;
+  max-width: 900px;
+  padding: 40px;
+  border-radius: 20px; /* Curved corners */
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 
 /* Form Styling */
 .student-form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
-/* Input Field Styling */
+/* Full-width fields inside grid */
 .student-form input,
 .student-form textarea {
-  width: 50%;
-  padding: 10px;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 10px;
   box-sizing: border-box;
 }
 
-/* Button Styling */
+/* Full-width button across both columns */
 .student-button {
-  width: 50%;
-  padding: 10px;
+  grid-column: span 2;
+  width: 100%;
+  padding: 12px;
   background-color: #021a31;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   font-size: 16px;
 }
@@ -54,9 +56,9 @@
 /* Title Styling */
 .student-title {
   text-align: center;
-  margin-bottom: 20px;
-  color: #333;
-  font-size: 24px;
+  color: #021a31;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 /* Link Styling */
