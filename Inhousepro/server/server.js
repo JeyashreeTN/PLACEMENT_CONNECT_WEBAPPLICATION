@@ -155,7 +155,7 @@ app.post("/student/register", async (req, res) => {
       studentname,
       email: semail,
       mobile: smobile,
-      cgpa,
+      cgpa:Number(cgpa),
       skills,
       academicYear,
       address,
