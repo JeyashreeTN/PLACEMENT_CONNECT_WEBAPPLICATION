@@ -11,9 +11,9 @@ import StudentDashboard from './components/StudentDashboard';
 
 const Home = () => {
   const placedStudents = [
-    { id: 1, name: 'John Doe', company: 'Google', position: 'Software Engineer', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8MS8QVASobRp_NB956TsKM_bdcS5ZT_yp4A&s' },
-    { id: 2, name: 'Jane Smith', company: 'Amazon', position: 'Data Scientist', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7X0OdfaWumbYopUqS0CwuhlKFbpcyLjeGtsKK6L9xzx_NtQrfY2wjdnuVULT05OldlZ0&usqp=CAU' },
-    { id: 3, name: 'Mark Johnson', company: 'Facebook', position: 'UI/UX Designer', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST1k7zVchojzpKlOOGP30Olbj2kb1l7DDEBw&s' },
+    { id: 1, name: 'Jessi', company: 'Google', position: 'Software Engineer', image: './jesi.png' },
+    { id: 2, name: 'Jane Smith', company: 'Amazon', position: 'Data Scientist', image: './b.png' },
+    { id: 3, name: 'Mark Johnson', company: 'Facebook', position: 'UI/UX Designer', image: './png.png' },
   ];
 
   return (

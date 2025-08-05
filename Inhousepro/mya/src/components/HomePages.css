@@ -149,7 +149,7 @@ nav h1 {
   gap: 20px;
   margin-top: 30px;
   overflow-x: auto; /* Enables horizontal scrolling if needed */
-  padding-bottom: 10px; /* Prevents cutting off shadow effects */
+  padding-bottom: 1px; /* Prevents cutting off shadow effects */
 }
 
 .student-card {
@@ -176,12 +176,13 @@ nav h1 {
 
 .student-image {
   width: 100%;
-  height: 170px;
-  object-fit: cover;
+  height: 250px;
+  object-fit: contain;
   border-radius: 5px;
   margin-bottom: 15px;
   margin-top: 10px;
 }
+
 
 .student-details h3 {
   color:black;
