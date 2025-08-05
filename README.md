@@ -1,8 +1,10 @@
 
 🎓 **Student Performance & Placement Tracking System**
+
 A full-stack web application designed to manage student performance, track placement progress,job application statuses and streamline communication between students and the college placement cell. The system offers real-time job role visibility, showcases top-placed students, and simplifies the job application process for both students and administrators.
 
 📚 **Table of Contents**
+
 🔍 **Overview**
 
 ✨ Features
@@ -25,6 +27,7 @@ The Student Performance & Placement Tracking System is an intuitive, role-based 
 With dedicated panels for students and administrators, the platform facilitates job role publication, filtering based on criteria , student application tracking, and performance monitoring—all from a single portal.
 
 ✨ Features
+
 🎓 Student Panel
 Secure registration and login
 
@@ -41,6 +44,7 @@ Track all job applications in one dashboard
 View a leaderboard of top-placed students
 
 🛠️ Admin Panel 
+
 Add or edit job postings with eligibility criteria
 
 Monitor student applications and statuses
@@ -51,6 +55,7 @@ Maintain job and performance records
 
 
 🛠️** Tech Stack**
+
 **Layer	Technologies Used**
 Frontend             -	React.js, Material UI (MUI), Axios
 Backend              - 	Node.js, Express.js
@@ -63,9 +68,11 @@ Tools                - 	VS Code, Postman (for API testing), Git & GitHub (versio
 
 
 📸 **Video demo**
+
  Visit - https://drive.google.com/drive/u/0/folders/15KnPPCloEESDN_W4o5od5JORkVnsLGEH
 
 🚀** Installation & Setup (VS Code + MongoDB)**
+
 🔧 **Prerequisites**
 Ensure the following are installed on your machine:
 
@@ -78,6 +85,7 @@ Ensure the following are installed on your machine:
 ✅ Git (optional, for cloning)
 
 📦 Local Development Setup
+
 1. Clone the Repository
 
 git clone https://github.com/JeyashreeTN/PLACEMENT_CONNECT_WEBAPPLICATION.git
@@ -111,6 +119,7 @@ http://localhost:5000/
 and to run front end as well use npm start
 
 🌐 Accessing the App
+
 Once the server is running:
 
 Open http://localhost:3000/ in your browser ).
@@ -118,7 +127,9 @@ Open http://localhost:3000/ in your browser ).
 API endpoints will be available at http://localhost:5000/api/
 
 👩‍💻 Author
+
 Jeyashree TN
+
 Developed as part of an academic project.
 
 📎 https://github.com/JeyashreeTN/PLACEMENT_CONNECT_WEBAPPLICATION
