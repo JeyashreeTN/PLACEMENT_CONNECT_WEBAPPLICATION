@@ -3,6 +3,7 @@
 
 A full-stack web application designed to manage student performance, track placement progress,job application statuses and streamline communication between students and the college placement cell. The system offers real-time job role visibility, showcases top-placed students, and simplifies the job application process for both students and administrators.
 
+
 📚 **Table of Contents**
 
 🔍 **Overview**
@@ -11,22 +12,23 @@ A full-stack web application designed to manage student performance, track place
 
 🛠️ Tech Stack
 
-📸 Screenshots
+🌐 Deployment link 
+
+📸 Video demo
 
 🚀 Installation & Setup
-
-🧩 Folder Structure
 
 👩‍💻 Author
 
 
 
 🔍 **Overview**
+
 The Student Performance & Placement Tracking System is an intuitive, role-based web application aimed at simplifying how institutions manage student performance records, job applications, and placement progress.
 
 With dedicated panels for students and administrators, the platform facilitates job role publication, filtering based on criteria , student application tracking, and performance monitoring—all from a single portal.
 
-✨ Features
+**✨ Features**
 
 🎓 Student Panel
 Secure registration and login
@@ -43,6 +45,7 @@ Track all job applications in one dashboard
 
 View a leaderboard of top-placed students
 
+
 🛠️ Admin Panel 
 
 Add or edit job postings with eligibility criteria
@@ -54,24 +57,30 @@ Filter the students based on criteria
 Maintain job and performance records
 
 
-🛠️** Tech Stack**
+🛠️**Tech Stack**
 
 **Layer	Technologies Used**
-Frontend             -	React.js, Material UI (MUI), Axios
-Backend              - 	Node.js, Express.js
-Database             -	MongoDB (via Mongoose ORM)
-Authentication       -	Custom authentication using MongoDB (no JWT or OAuth )
-API Communication    - 	RESTful APIs (Axios for client-server interaction)
-Server Tools	       -  body-parser, cors, dotenv, nodemon (for development)
-Deployment	         -  Currently local (can be deployed using Vercel/Netlify for frontend and Render/Heroku for backend)
-Tools                - 	VS Code, Postman (for API testing), Git & GitHub (version control)
+**Frontend**             -	React.js, Material UI (MUI), Axios
+**Backend**             - 	Node.js, Express.js
+**Database**           -	MongoDB (via Mongoose ORM)
+**Authentication**      -	Custom authentication using MongoDB (no JWT or OAuth )
+**API Communication**    - 	RESTful APIs (Axios for client-server interaction)
+**Server Tools**      -  body-parser, cors, dotenv, nodemon (for development)
+**Deployment**         -  Render
+**Tools**             - 	VS Code, Postman (for API testing), Git & GitHub (version control)
 
+**Deployment link:**
+
+🌐 **Live Demo**
+
+Access the deployed application here:
+https://placement-connect-pnkr.onrender.com/
 
 📸 **Video demo**
 
  Visit - https://drive.google.com/drive/u/0/folders/15KnPPCloEESDN_W4o5od5JORkVnsLGEH
 
-🚀** Installation & Setup (VS Code + MongoDB)**
+🚀**Installation & Setup (VS Code + MongoDB)**
 
 🔧 **Prerequisites**
 Ensure the following are installed on your machine:
@@ -126,7 +135,7 @@ Open http://localhost:3000/ in your browser ).
 
 API endpoints will be available at http://localhost:5000/api/
 
-👩‍💻 Author
+👩‍💻 **Author**
 
 Jeyashree TN
 
